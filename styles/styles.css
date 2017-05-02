@@ -1,0 +1,57 @@
+
+
+.flexbox {
+    display: flex; 
+    font-size: larger
+}
+
+.static {
+    flex: 0 0 50px;
+    font-size: Larger;
+    background-color: white;
+}
+.static_2 {
+    flex: 0 0 60px;
+    font-family: inherit
+    font-size: Larger;
+    background-color: #AA1E38;
+}
+.body {
+    font-family: Arial;
+    background-color: white;
+    font-style: normal;
+    font-size:15px;
+}
+
+
+/*body {
+    background-color: white;
+}
+
+body class="flex"
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.menu div {
+    border: 2px solid;
+}
+
+.menu div span {
+    font:16px 'Courier';
+    background-color: red;
+}
+*/
+
+/*for when the screen goes down to 480, then hide the the container
+*/
+@media screen and (max-width:480px) {
+    .container dic span {
+        display:none;
+    }
+}
+
